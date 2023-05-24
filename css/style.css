@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*blog start*/
+.blog{
+	padding: 100px;
+}
+.s-blog{
+
+	width: 47%;
+/*	border: 1px solid black;*/
+	float: left;
+	margin-right: 6%;
+	box-sizing: border-box;
+}
+.sb-mt{
+	margin-top: 80px;
+}
+.s-blog:nth-child(even){
+	margin-right: 0;
+}
+.s-img{
+	margin-bottom: 20px;
+}
+.s-img img{
+	width: 100%;
+}
+/*blog end*/
+/*perfect start*/
+.perfect{
+	padding: 100px 0 20px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+.c-light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+	text-transform: uppercase;
+}
+.c-title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c-text{
+	margin: 0;
+	line-height: 24px;
+}
+.c-mb{
+	margin-bottom: 45px;
+}
+/*perfect end*/
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+/*perfect container end*/
+/*blog2 start*/
+.blog2{
+	padding: 20px 0 100px;
+}
+.load{
+	margin: 100px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	background-color: white;
+	border: 1px solid #626262;
+	font-family: 'Playfair display', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .33s;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*blog2 end*/
